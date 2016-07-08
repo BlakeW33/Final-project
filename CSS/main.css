@@ -1,0 +1,50 @@
+#title1{
+	border:2pt solid #000;
+	width: 960px;
+	height: 100px;
+	margin: 0 auto;
+	background-color:gold;
+}
+#navbar{
+	border:2pt solid #000;
+	width:960px;
+	margin: 0 auto;
+	background-color: lightblue;
+}
+.wrap{
+	width: 960px;
+	margin: 0 auto;
+	border:2pt solid #000;
+	background-color: white;
+}
+#sideBar{
+	width: 20%;
+	margin: 0 auto;
+	border:2pt solid #000;
+	background-color: yellow ;
+	height:500px;
+	float: left;
+}
+#mainContent{
+	width: 79.1%;
+	margin: 0 auto;
+	border:2pt solid #000;
+	background-color: silver;
+	height:500px;
+	float: left;
+}
+ul{
+	list-style: none;
+	list-style-position: left;
+}
+ol{
+	line-height: 150px;
+}
+#title2{
+	
+	width: 960px;
+	height: 50px;
+	margin: 0 auto;
+	
+
+}
