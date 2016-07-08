@@ -3,7 +3,7 @@
 	width: 960px;
 	height: 100px;
 	margin: 0 auto;
-	background-color:gold;
+	background-color:grey;
 }
 #navbar{
 	border:2pt solid #000;
@@ -21,7 +21,7 @@
 	width: 20%;
 	margin: 0 auto;
 	border:2pt solid #000;
-	background-color: yellow ;
+	background-color: grey ;
 	height:500px;
 	float: left;
 }
