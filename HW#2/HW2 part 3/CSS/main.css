@@ -1,0 +1,30 @@
+#left {
+ border-style: solid;
+ border-color: black;
+ height: 100px;
+ width: 50px;
+ float:left;
+ margin:0;
+padding:0;
+list-style-type: none;
+}
+#middle{ 
+border-style: solid;
+border-color: black;
+height: 100px;
+width: 50px;
+margin:0;
+padding:0;
+list-style-type: none; 
+float: left;
+}
+#right{border-style: solid;
+border-color: black;
+height: 100px;
+float:left;
+width: 50px;
+margin:0;
+padding:0;
+list-style-type: none; }
+
+
