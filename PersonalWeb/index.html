@@ -5,6 +5,7 @@
 		Blake's Webpage!
 		</title>
 		<link rel="stylesheet" type="text/css" href="CSS/main.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 	</head>
 	<body>
 		<div id="title1">
@@ -12,34 +13,64 @@
 		</div>
 	<div id="navbar">
 			<nav>
-				<a href="#">home</a>
-				<a href="index-1.html"target="_blank_">about</a>
-				<a href="index-2.html"target="_blank_">contact</a>
+						<div class="dropdown">
+  			<button onclick="myFunction()" class="dropbtn">Navigation</button>
+  			<div id="myDropdown" class="dropdown-content">
+    		<a href="#">Home</a>
+    		<a href="index-1.html">About</a>
+    		<a href="index-2.html">Contact</a>
+  		</div>
+				<div id="clocks">
+				<span id="hours"></span>
+				<span id="minutes"></span>
+				<span id="seconds"></span>
+				<span id="milliseconds"></span></div>
+        		<div id="log">
+        		<form name="login">
+           	 	Username<input type="text" name="userid"/>
+            	Password<input type="password" name="pswrd"/>
+           	 <input id="login" type="button"  value="Login"/>
+        	</form>
+        		</div>
 			</nav>
 		</div>
 		<div class="wrap">
 			<section id="sideBar" class="section"> 
-			<ol>
-				<li>Basic web page</li>
+			<ol id="OL1">
+				<li id="White3">Click here -> </li>
 			
-				<li>Css layout Homework </li>
+				<li id="Blue2">School and Education </li>
 			
-				<li>Css styling Homework</li>
+				<li id="White2">Coding and experience </li>
 			</ol>
 			</section>
 			<section id="mainContent" class="section"> 
 			<ul id="links">
-				<li><a href="file:///C:/Users/Blake.W/Desktop/Personal%20Website%20Project/linkingWebsites/index-1.html"target="_blank_">Hw1</a><p> This assignment was my first one. The goal was to create two pages and link them together using what we learned in the first day. I tackled this assignment by making two pages one with my morning routine and one with my evening routine adding pictures of day time and night time to their respective pages and then finally linking both the pages with link at the bottom of the page.</li>
-
-				<li><a href="file:///C:/Users/Blake.W/Desktop/Personal%20Website%20Project/Cause%20the%20other%20wont%20work/index.html"target="_blank_">Floating gallery</a><p></p> This was part of my second assignment. It was a three part assignment to make three pages each with a different syle. The first goal was to make a two column bar with a social media hub on the left the second part was to make a floating image gallery. Lastly the third assignment was to make three colums right next to eachother.</p>
- </p></li>
-				<li><a href="file:///C:/Users/Blake.W/Desktop/Personal%20Website%20Project/firstCSS/index.html"target="_blank_">Hw3</a></li><p> This was my third assignment. This assignment was supposed to test are knowledge of CSS and had us use pretty much everything learned about css. 
-			</ul>
-			</section>	
-			
+				<li><button type="button" onclick="F3()">Toggle on</button><button type="button" onclick="F5()">Toggle off</button></li>
+				<li id="Blue1">I currently go to Highschool at Blair academy.I am 17y/0 and a rising junior.</li>
+				<li id="White1">I had not had any experience coding prior to this. I am excited to continue it in my future. </li>
+			</section>		
 		</div>
+		<script>
+			function F3() {
+		document.getElementById('Blue1').style.color= "blue" ;
+		document.getElementById('White1').style.color= "white" ;
+		document.getElementById('Blue2').style.color= "blue"	;
+		document.getElementById('White2').style.color= "white"	;
+		document.getElementById('White3').style.color="white"	;
+}
+			function F5() {
+		document.getElementById('Blue1').style.color= "black" ;
+		document.getElementById('White1').style.color= "black" ;
+		document.getElementById('Blue2').style.color= "black"	;
+		document.getElementById('White2').style.color= "black"	;
+		document.getElementById('White3').style.color="black"	;
+		
+			}
+		</script>
 		<div id="title2">
 			<h6> made by blake wilkey</h6>
 		</div>
+		<script src="scripts/main.js"></script>
 	</body>
 </html>

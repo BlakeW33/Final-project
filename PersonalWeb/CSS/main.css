@@ -7,15 +7,14 @@
 }
 #navbar{
 	border:2pt solid #000;
-	width:960px;
+	width:959px;
 	margin: 0 auto;
 	background-color: lightblue;
 }
 .wrap{
 	width: 960px;
 	margin: 0 auto;
-	border:2pt solid #000;
-	background-color: white;
+	background-color:;
 }
 #sideBar{
 	width: 20%;
@@ -45,15 +44,73 @@ ol{
 	width: 960px;
 	height: 50px;
 	margin: 0 auto;
-	
-
 }
 #Contact{
 	line-height: 150px;
 }
 #links{
-	line-height: 27px;
+	line-height: 125px;
 }
 #iphone{
 	float:right;
 }
+
+#clocks{
+	float:right;
+	font-size: 17px;
+	list-style-type: none;
+	display: inline;
+
+}
+
+#log{
+	display:inline-block;
+}
+
+h1{
+	color:white;
+	font-family: Verdana;
+	display: inline-block;
+}
+
+body{
+	background-image: url("http://i.imgur.com/VKTPd2M.jpg");
+}
+
+.dropbtn {
+    background-color: #1a75ff;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #0052cc;
+}
+
+.dropdown {
+    position: relative;
+    display: inline;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.show {display:block;}
+
+
